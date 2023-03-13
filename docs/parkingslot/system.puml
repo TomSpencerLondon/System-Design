@@ -1,0 +1,30 @@
+@startuml
+cloud "User" {
+}
+node "ParkingService" {
+}
+
+node "SlotService" {
+}
+
+node "PricingService" {
+}
+
+Database "SlotDB" {
+}
+
+Database "ParkingDB" {
+}
+
+Database "PricingPoliciesDB" {
+}
+note left of ParkingDB: Tickets data
+note right of SlotDB: Slot and Allocation
+
+User -> ParkingService
+ParkingService -down-> ParkingDB
+ParkingService --> SlotService
+ParkingService -down-> PricingService
+PricingService -down-> PricingPoliciesDB
+SlotService -down-> SlotDB
+@enduml
