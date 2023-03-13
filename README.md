@@ -107,5 +107,7 @@ interface PricingService {
 - good question for high and low level design
 - big scope for question
 
-
+### Notes:
+This is a good example for architecture katas:
+https://github.com/icedhacker/architecture-katas
 
