@@ -108,6 +108,7 @@ interface PricingService {
 - big scope for question
 
 ### Notes:
-This is a good example for architecture katas:
+- This is a good example for architecture katas:
 https://github.com/icedhacker/architecture-katas
-
+- This is a good course for grokking systems design:
+  https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers
